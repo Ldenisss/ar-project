@@ -16,7 +16,6 @@
             arjs="trackingMethod: best; sourceType: webcam; debugUIEnabled: false;"
             id="scene"
             embedded
-            gesture-detector
         >
             <a-assets>
                 <a-asset-item
@@ -27,9 +26,7 @@
 
             <a-marker
                 id="animated-marker"
-                type="pattern"
-                preset="custom"
-                url="assets/marker.patt"
+                type="hiro"
                 raycaster="objects: .clickable"
                 emitevents="true"
                 cursor="fuse: false; rayOrigin: mouse;"
